@@ -2,6 +2,7 @@ package tk.spongenetwork.Newoace.Main.Inventory;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
+import org.bukkit.event.inventory.InventoryType;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
@@ -10,7 +11,7 @@ import org.bukkit.inventory.ItemStack;
  */
 public class SmelterInventory {
 
-    public Inventory Smelter = Bukkit.createInventory(null, 54, "Smeltery") ;
+    public Inventory Smelter = Bukkit.createInventory(null, InventoryType.CHEST, "Smeltery") ;
     public SmelterInventory() {
         Smelter.setItem(9, new ItemStack(Material.GOLD_INGOT));
         Smelter.setItem(11, new ItemStack(Material.GOLD_BLOCK));
