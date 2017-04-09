@@ -28,23 +28,3 @@ public class BlackSmithAnvil implements Listener {
 }
 
 
-
-
-//public class Smelter implements Listener {
-
-  //  private SmelterInventory inv = new SmelterInventory() ;
-
-    //@EventHandler
- //   public void onPlayerInteract(PlayerInteractEvent e) {
-   //     if (e.getClickedBlock().getType() == Material.FURNACE) {
-     //       e.setCancelled(true);
-       //     e.getPlayer().openInventory(inv.getSmelter()) ;
-
-//        }
- //   }
-
-//    public SmelterInventory getInv () {
-    //    return inv ;
-  //  }
-
-//}
