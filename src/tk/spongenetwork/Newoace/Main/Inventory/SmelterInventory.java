@@ -11,12 +11,12 @@ import org.bukkit.inventory.ItemStack;
  */
 public class SmelterInventory {
 
-    public Inventory Smelter = Bukkit.createInventory(null, InventoryType.CHEST, "Smeltery") ;
+    public static Inventory Smelter = Bukkit.createInventory(null, InventoryType.CHEST, "Smeltery") ;
     public SmelterInventory() {
         Smelter.setItem(9, new ItemStack(Material.GOLD_INGOT));
-        Smelter.setItem(11, new ItemStack(Material.GOLD_BLOCK));
-        Smelter.setItem(13, new ItemStack(Material.COAL));
-        Smelter.setItem(15, new ItemStack(Material.IRON_BLOCK));
+
+        Smelter.setItem(13, new ItemStack(Material.DIAMOND));
+
         Smelter.setItem(17, new ItemStack(Material.IRON_INGOT));
     }
     public Inventory getSmelter () {

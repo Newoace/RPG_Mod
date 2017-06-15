@@ -4,6 +4,7 @@ import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 import tk.spongenetwork.Newoace.Main.Events.CutWood;
 import tk.spongenetwork.Newoace.Main.Events.MineOre;
+import tk.spongenetwork.Newoace.Main.Inventory.Smelt;
 import tk.spongenetwork.Newoace.Main.Inventory.Smelter;
 import tk.spongenetwork.Newoace.Main.Inventory.BlackSmithAnvil;
 
@@ -38,6 +39,7 @@ public class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new MineOre() , this);
         getServer().getPluginManager().registerEvents(new CutWood(), this);
         getServer().getPluginManager().registerEvents(new Smelter(), this);
+        getServer().getPluginManager().registerEvents(new Smelt(), this) ;
         getServer().getPluginManager().registerEvents(new BlackSmithAnvil(), this);
     }
 

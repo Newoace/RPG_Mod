@@ -15,10 +15,11 @@ public class Smelter implements Listener {
 
     @EventHandler
     public void onPlayerInteract(PlayerInteractEvent e) {
-        if (e.getClickedBlock().getType() != null && e.getAction().equals(Action.RIGHT_CLICK_BLOCK) && e.getClickedBlock().getType() == Material.FURNACE) {
-            e.setCancelled(true);
-            e.getPlayer().openInventory(inv.getSmelter()) ;
-
+        if (e.getAction().equals(Action.RIGHT_CLICK_BLOCK)) {
+            if (e.getClickedBlock().getType() == Material.FURNACE) {
+                e.setCancelled(true);
+                e.getPlayer().openInventory(inv.getSmelter());
+            }
         }
     }
 
