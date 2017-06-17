@@ -13,7 +13,7 @@ public class BlackSmith implements Listener {
             if (e.getRawSlot() >= e.getInventory().getSize()) {
                 return;
             } else if (e.getInventory().getTitle().equalsIgnoreCase("Anvil")) {
-                if (true) {
+                if (false) {
 
                 }
 
