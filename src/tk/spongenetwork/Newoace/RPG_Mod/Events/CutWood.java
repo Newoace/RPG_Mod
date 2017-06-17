@@ -1,10 +1,10 @@
-package tk.spongenetwork.Newoace.Main.Events;
+package tk.spongenetwork.Newoace.RPG_Mod.Events;
 
 import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
-import tk.spongenetwork.Newoace.Main.XP.Xp;
+import tk.spongenetwork.Newoace.RPG_Mod.XP.Xp;
 
 /**
  * Created by dadoc on 12/11/2016.

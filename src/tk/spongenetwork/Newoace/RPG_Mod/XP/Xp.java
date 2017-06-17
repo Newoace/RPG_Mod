@@ -1,14 +1,7 @@
-package tk.spongenetwork.Newoace.Main.XP;
+package tk.spongenetwork.Newoace.RPG_Mod.XP;
 
 import org.bukkit.Bukkit;
-import org.bukkit.Material;
-import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.configuration.file.YamlConfiguration;
-import tk.spongenetwork.Newoace.Main.Main;
-
-import java.io.File;
-import java.io.IOException;
 
 /**
  * Created by dadoc on 12/3/2016.

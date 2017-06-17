@@ -1,4 +1,4 @@
-package tk.spongenetwork.Newoace.Main.Inventory;
+package tk.spongenetwork.Newoace.RPG_Mod.Inventory;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;

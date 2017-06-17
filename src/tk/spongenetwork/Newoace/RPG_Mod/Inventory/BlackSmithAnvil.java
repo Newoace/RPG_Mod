@@ -1,4 +1,4 @@
-package tk.spongenetwork.Newoace.Main.Inventory;
+package tk.spongenetwork.Newoace.RPG_Mod.Inventory;
 
 import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
@@ -6,25 +6,26 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
 
-/**
- * Created by dadoc on 12/19/2016.
- */
-public class Smelter implements Listener {
 
-    private SmelterInventory inv = new SmelterInventory() ;
+public class BlackSmithAnvil implements Listener {
+
+    private BlackSmithInventory inv = new BlackSmithInventory() ;
 
     @EventHandler
     public void onPlayerInteract(PlayerInteractEvent e) {
         if (e.getAction().equals(Action.RIGHT_CLICK_BLOCK)) {
-            if (e.getClickedBlock().getType() == Material.FURNACE) {
+            if (e.getClickedBlock().getType() == Material.ANVIL) {
                 e.setCancelled(true);
-                e.getPlayer().openInventory(inv.getSmelter());
+                e.getPlayer().openInventory(inv.getBlackSmithAnvil()) ;
             }
+
         }
     }
 
-    public SmelterInventory getInv () {
+    public BlackSmithInventory getInv () {
         return inv ;
     }
 
 }
+
+

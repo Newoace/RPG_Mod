@@ -1,12 +1,12 @@
-package tk.spongenetwork.Newoace.Main;
+package tk.spongenetwork.Newoace.RPG_Mod;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
-import tk.spongenetwork.Newoace.Main.Events.CutWood;
-import tk.spongenetwork.Newoace.Main.Events.MineOre;
-import tk.spongenetwork.Newoace.Main.Inventory.Smelt;
-import tk.spongenetwork.Newoace.Main.Inventory.Smelter;
-import tk.spongenetwork.Newoace.Main.Inventory.BlackSmithAnvil;
+import tk.spongenetwork.Newoace.RPG_Mod.Events.CutWood;
+import tk.spongenetwork.Newoace.RPG_Mod.Events.MineOre;
+import tk.spongenetwork.Newoace.RPG_Mod.Inventory.Smelt;
+import tk.spongenetwork.Newoace.RPG_Mod.Inventory.Smelter;
+import tk.spongenetwork.Newoace.RPG_Mod.Inventory.BlackSmithAnvil;
 
 /**
  * Created by dadoc on 11/29/2016.
