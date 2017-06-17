@@ -11,7 +11,7 @@ import tk.spongenetwork.Newoace.RPG_Mod.Inventory.BlackSmithAnvil;
 /**
  * Created by dadoc on 11/29/2016.
  */
-public class Main extends JavaPlugin {
+public class RPG_Mod extends JavaPlugin {
 
 
 
